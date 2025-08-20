@@ -1,24 +1,261 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 16</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 16 Kínder 2</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡Diseñando el Tren Héroe de Nuestra Ciudad!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Integrar lógica condicional, planificación simbólica y narrativa.</li>
+<li>Diseñar un circuito interactivo que resuelva un problema comunitario.</li>
+<li>Colaborar en un proyecto complejo.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Una misión comunitaria definida para el tren.</li>
+<li>Un mapa del circuito del tren dibujado, incluyendo un desvío.</li>
+<li>Una secuencia de acciones del tren planificada con tarjetas Spark Code.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Papel grande (rotafolio) y marcadores.</li>
+<li>Tarjetas de Spark Code.</li>
+<li>Figuras del Set de Personas.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: Activando Motores: ¡Bienvenida a los Ingenieros Estrellas! ⏰ 5 min</h2>
+<p>Preparamos nuestras mentes y corazones para una misión de construcción y ayuda comunitaria.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Bienvenidos, Ingenieros en Jefe! ⏰ 2 min</h3>
+<p>Dar la bienvenida cálida a los niños, recordándoles su emocionante rol como "Ingenieros en Jefe de la Red Ferroviaria Comunitaria". Asegurarse de que todos se sientan parte de la misión y el ambiente de juego de roles.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 1: "¡Bienvenidos, Ingenieros en Jefe!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, equipo de ingenieros y arquitectos del futuro! ¡Qué emoción verlos hoy! Les doy la bienvenida a nuestro taller de diseño de trenes. Hoy no somos solo niños y niñas, ¡somos los Ingenieros en Jefe de la Red Ferroviaria Comunitaria! ¡Eso significa que somos los expertos en trenes y circuitos de nuestra ciudad! ¿Están listos para usar su imaginación al máximo y construir algo asombroso?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Gran Misión del Día ⏰ 3 min</h3>
+<p>Introducir de forma lúdica la idea de que hoy van a crear algo grande y útil para la comunidad, uniendo todo lo aprendido en sesiones anteriores sobre trenes y toma de decisiones. Crear expectativa.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 2: "Nuestra Gran Misión: ¡El Tren Héroe de la Ciudad!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Hoy vamos a unir todas las piezas de conocimiento que hemos construido hasta ahora. ¿Recuerdan cómo los trenes pueden ir por diferentes caminos? ¿Y cómo pueden hacer cosas especiales? Pues hoy, vamos a diseñar un ¡gran circuito de tren para nuestra ciudad! Pero no cualquier tren, ¡será un tren héroe que ayude a la gente de forma muy, muy inteligente, usando decisiones "si-entonces"! ¿Se imaginan cómo un tren podría ayudar a alguien? ¡Prepárense para una aventura de diseño!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: Misión del Tren Héroe: Un Gran Problema, ¡Una Gran Solución! ⏰ 5 min</h2>
+<p>Descubrimos el desafío que nuestra comunidad enfrenta y cómo nuestro tren especial puede ser la solución.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Misterio de la Ciudad y el Tren Héroe ⏰ 2 min</h3>
+<p>Presentar el concepto de un tren que no solo transporta, sino que activamente ayuda a la comunidad. Usar las figuras del Set de Personas para hacer la situación más concreta y visual, invitando a la reflexión sobre cómo los trenes pueden ser útiles.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 3: "¿Cómo puede un tren ser un héroe?")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ingenieros, pongan atención! Nuestra ciudad es hermosa, pero a veces, la gente necesita ayuda. Imaginen un tren mágico, un verdadero "tren héroe" que no solo lleva pasajeros, ¡sino que también ayuda a la gente de maneras muy inteligentes! Por ejemplo, si el doctor necesita llegar rápido al hospital, o si los bomberos tienen que ir a un rescate. ¿Cómo creen que un tren podría ayudar? (Mostrar figuras del Set de Personas: un doctor, un bombero, un constructor, etc., e invitar a los niños a dar ideas).</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Magia del "Si-Entonces" ⏰ 3 min</h3>
+<p>Guiar una lluvia de ideas sobre cómo un tren podría ayudar, introduciendo de manera sencilla y lúdica la lógica "si-entonces" con ejemplos prácticos y cercanos a su realidad, resaltando la idea de "decisiones inteligentes".</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 4: "La Lógica Mágica: ¡Si... Entonces!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué buenas ideas! Ahora, ¿qué tal si nuestro tren pudiera tomar decisiones? ¡Como si tuviera un cerebro! Por ejemplo, 'SI hay una emergencia, ENTONCES el tren se desvía para recoger al doctor'. O 'SI hay un incendio, ENTONCES el tren va directo a la estación de bomberos'. ¿Ven? Es como un juego de "Si pasa esto, entonces hago esto otro". Esta lógica de "Si-Entonces" es lo que hace que nuestro tren sea un verdadero héroe inteligente. ¡Hoy vamos a diseñar ese tren y su increíble circuito que piensa y ayuda!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: Diseñando el Corazón de la Red: ¡Nuestro Circuito Solidario! ⏰ 25 min</h2>
+<p>Es hora de que nuestros equipos de ingenieros pongan manos a la obra, creando el mapa y las instrucciones para el tren héroe.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Organizando a los Equipos de Arquitectos ⏰ 5 min</h3>
+<p>Dividir a los niños en equipos (sugerido: 3-4 niños por equipo). Repartir el papel grande (rotafolio), marcadores y las tarjetas de Spark Code. Reforzar el rol de "arquitectos" y la importancia de trabajar juntos, escuchando las ideas de todos.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 5: "¡Manos a la Obra, Equipos de Diseño!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, futuros arquitectos de la ciudad! Es momento de formar nuestros equipos de diseño. Cada equipo tendrá su propio 'taller de arquitectura' con herramientas especiales: este papel gigante para dibujar, marcadores de colores, ¡y nuestras 'tarjetas de poder' Spark Code! Recuerden, en equipo somos más fuertes y nuestras ideas ¡brillan más! Ayúdense unos a otros y escuchen las ideas de sus compañeros.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Definiendo la Misión del Tren Héroe ⏰ 5 min</h3>
+<p>Guiar a cada equipo para que, en conjunto, definan una misión clara y específica para su tren héroe. Animar la creatividad y la discusión sobre qué problema de la comunidad les gustaría resolver, fomentando la empatía y el pensamiento crítico.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 6: "¿Cuál será la Misión de tu Tren Héroe?")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Ahora, en sus equipos, ¡es hora de decidir! ¿Cuál será la misión de su tren héroe? ¿A quién va a ayudar en nuestra ciudad? ¿Será que va a llevar medicinas al hospital? ¿O tal vez va a recoger la basura para mantener la ciudad limpia? ¿O quizás va a llevar juguetes a los niños que no tienen? ¡Piensen en un problema que su tren podría resolver y decidan juntos cuál será su gran misión!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: Trazando el Camino y el Desvío Inteligente ⏰ 10 min</h3>
+<p>Los equipos deben dibujar el mapa de su circuito en el papel grande. Es crucial que incluyan un "desvío" o una bifurcación, que representará la "decisión" que el tren tomará. Circular por los equipos, haciendo preguntas para guiar el diseño y asegurarse de que el desvío sea funcional para su misión, fomentando la planificación espacial y la resolución de problemas.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 7: "¡Dibujando el Mapa del Circuito!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Manos a la obra, super diseñadores! Con su misión en mente, ¡dibujen el mapa de su circuito en el papel! Pongan las estaciones importantes, los lugares a los que irá el tren. ¡Y no olviden lo más importante para un tren inteligente: un desvío! Este desvío es donde su tren héroe tomará una decisión importante. Por ejemplo, si su misión es llevar medicinas al hospital, ¿dónde estaría el hospital? ¿Y dónde estaría el desvío si hay una emergencia para ir a otro lado? ¡Quiero ver esos circuitos ingeniosos y cómo el desvío ayuda a su tren a ser un héroe!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 4: Programando con las Tarjetas Spark Code ⏰ 5 min</h3>
+<p>Los equipos usarán las tarjetas de Spark Code para planificar la secuencia de acciones y, especialmente, la lógica "si-entonces" de su tren. Animar a los niños a pensar en escenarios específicos y cómo el tren reaccionaría, traduciendo sus ideas en una secuencia lógica de pasos.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 8: "Instrucciones Inteligentes con Spark Code")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ahora, la parte más mágica! Con sus tarjetas Spark Code, vamos a darle instrucciones inteligentes a nuestro tren. Piensen: 'SI pasa algo específico (como una emergencia o una persona esperando), ENTONCES el tren hace esto otro (como desviarse o detenerse)'. ¿Qué decisiones tomará su tren para cumplir su misión? Por ejemplo, 'SI hay un incendio, ENTONCES el tren lleva a los bomberos'. ¡Usen las tarjetas para representar esas ideas! ¡Pongan una tarjeta para "SI" y otra para "ENTONCES", o las que necesiten para su secuencia! ¡Estoy seguro de que sus trenes serán los más inteligentes de la ciudad!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Compartiendo el Futuro: ¡Nuestros Trenes Héroes! ⏰ 5 min</h2>
+<p>Presentamos con orgullo nuestros diseños y celebramos el gran trabajo en equipo.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Desfile de Circuitos Creativos ⏰ 3 min</h3>
+<p>Pedir a cada equipo que presente su mapa y explique la misión de su tren, cómo funciona el desvío y cómo usaron las tarjetas Spark Code para darle instrucciones inteligentes. Fomentar la escucha activa y el respeto entre los equipos, celebrando la diversidad de ideas.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 9: "¡Nuestros Circuitos Héroes en Acción!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, ingenieros! Es el momento más emocionante: ¡vamos a ver las maravillas que crearon! Cada equipo, por favor, muéstrenos su mapa, cuéntennos la increíble misión de su tren. ¿Qué problema resuelve? ¿Cómo usa sus decisiones inteligentes con las tarjetas Spark Code? ¡Queremos escuchar todas esas ideas geniales! ¡Recuerden aplaudir a cada equipo por su gran esfuerzo y por sus ideas tan originales!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Misión Cumplida y Futuro Brillante! ⏰ 2 min</h3>
+<p>Felicitar a los niños por su creatividad, colaboración y por haber integrado conceptos complejos de forma tan ingeniosa. Reforzar el aprendizaje sobre la lógica condicional y la planificación en un contexto significativo, conectándolo con su capacidad para resolver problemas.</p>
+<p class="instruction"><strong>(Proyectar Diapositiva 10: "¡Misión Cumplida, Superhéroes de la Lógica!")</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, equipo! ¡Estoy impresionado! ¡Cada uno de sus trenes es un verdadero héroe! Han demostrado ser unos Ingenieros en Jefe de la Red Ferroviaria Comunitaria increíbles. Usaron su imaginación para ayudar a los demás y su cerebro para pensar en cómo el tren tomaría decisiones, ¡como verdaderos programadores! Hemos usado la lógica 'si-entonces' para crear planes geniales y hemos colaborado como un gran equipo. ¡Misión cumplida, campeones! ¡Démosle un aplauso gigante a todos por su trabajo espectacular! ¡Son unos genios y unos grandes ayudantes para nuestra comunidad!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
